@@ -32,7 +32,6 @@ ratings:
 
 exclude_paths:
 - public/*
-- db/*
 - fixtures/*
 - vendor/*
 - spec/*
