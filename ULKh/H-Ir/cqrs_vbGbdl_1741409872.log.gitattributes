@@ -10,6 +10,5 @@
 *.txt           text
 *.md            text
 *.css           text
-*.js            text
 *.sql           text
 core/src/main/resources/META-INF/services/org.axonframework.serialization.ContentTypeConverter text
