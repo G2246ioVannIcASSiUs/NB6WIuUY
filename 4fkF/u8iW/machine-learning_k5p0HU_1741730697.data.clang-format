@@ -8,7 +8,6 @@ AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: false
 IndentPPDirectives: AfterHash
 
-# Default style for some settings.
 
 AccessModifierOffset: -2
 AllowShortLoopsOnASingleLine: false
