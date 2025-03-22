@@ -81,7 +81,6 @@ IncludeCategories:
     Priority:        3
   # Headers in <> with extension.
   - Regex:           '<([A-Za-z0-9.\Q/-_\E])+>'
-    Priority:        2
   # Headers in "" with extension.
   - Regex:           '"([A-Za-z0-9.\Q/-_\E])+"'
     Priority:        1
