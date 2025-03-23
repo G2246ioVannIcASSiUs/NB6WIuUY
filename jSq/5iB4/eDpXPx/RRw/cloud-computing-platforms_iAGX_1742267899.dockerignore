@@ -17,7 +17,6 @@
 
 cloudstack/tools/docker/Dockerfile
 cloudstack/tools/docker/Dockerfile.smokedev
-.dockerignore
 .idea
 .git
 venv
