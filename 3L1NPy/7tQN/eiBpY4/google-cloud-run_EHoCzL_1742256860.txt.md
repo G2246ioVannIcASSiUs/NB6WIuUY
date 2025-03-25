@@ -46,7 +46,6 @@
     ```
     docker build -f Dockerfile -t cloud-run-button .
     ```
-
 1. Set an env var pointing to the Service Account's JSON file:
 
     ```
