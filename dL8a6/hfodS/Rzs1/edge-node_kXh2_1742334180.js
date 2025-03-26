@@ -1,6 +1,5 @@
 module.exports = {
   extends: 'standard',
-  globals: {
     test: true,
     expect: true,
     beforeEach: true,
