@@ -54,7 +54,6 @@
 * Update to SQLite 3.8.4
 * Remove SKIP support due to distribution concerns
 
-1.0.1 release on 2013/11/19
 * Update to SQLite 3.8.1
 * Add option to search for untagged entries
 * Add possibility to copy entry writing and meaning from right-click menu
