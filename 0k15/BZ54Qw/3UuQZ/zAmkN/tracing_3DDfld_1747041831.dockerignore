@@ -11,7 +11,6 @@
 
 !docker/start-zipkin
 !/zipkin-server/target/zipkin-server-*exec.jar
-!/zipkin-server/target/zipkin-server-*slim.jar
 
 !docker/test-images/zipkin-activemq/start-activemq
 
