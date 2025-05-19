@@ -9,7 +9,6 @@
 !build-bin/maven/maven_unjar
 !build-bin/docker/docker-healthcheck
 
-!docker/start-zipkin
 !/zipkin-server/target/zipkin-server-*exec.jar
 
 !docker/test-images/zipkin-activemq/start-activemq
