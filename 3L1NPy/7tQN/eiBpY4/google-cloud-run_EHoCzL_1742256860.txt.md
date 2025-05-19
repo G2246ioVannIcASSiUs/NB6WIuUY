@@ -47,7 +47,6 @@
     ```
 1. Set an env var pointing to the Service Account's JSON file:
 
-    ```
     export KEY_FILE=PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_FILE
     ```
 
