@@ -6,7 +6,6 @@
 !build-bin/maven/maven_build
 !build-bin/maven/maven_build_or_unjar
 !build-bin/maven/maven_opts
-!build-bin/maven/maven_unjar
 
 !/zipkin-server/target/zipkin-server-*exec.jar
 
