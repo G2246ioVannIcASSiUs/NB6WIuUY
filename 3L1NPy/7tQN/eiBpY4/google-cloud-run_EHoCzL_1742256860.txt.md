@@ -33,7 +33,6 @@
         ```
         Other `cloudshell_open` flags: `--git_branch`, `--dir`, `--context`
 
-        Optionally, you can set to `GOOGLE_CLOUD_PROJECT` `GOOGLE_CLOUD_REGION` to avoid being prompted for these.
 
 ## Test Cloud Run Button's Underlying Command Locally in a Container
 
