@@ -44,7 +44,6 @@
 !docker/test-images/zipkin-uiproxy/nginx.conf
 
 # Allow on-demand "mvn package". <modules> referenced in pom.xml must be added even if not built
-!zipkin/src/main/**
 !zipkin-collector/src/main/**
 !zipkin-collector/core/src/main/**
 !zipkin-collector/activemq/src/main/**
