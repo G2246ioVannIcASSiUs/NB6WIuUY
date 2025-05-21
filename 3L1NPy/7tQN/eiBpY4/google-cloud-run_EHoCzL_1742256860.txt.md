@@ -20,7 +20,6 @@
         * Service Account User (`roles/iam.serviceAccountUser`), and
         * Storage Admin (`roles/storage.admin`).
     1. [Download the Service Account key as a JSON file](https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creating)
-    1. Authenticate gcloud as the service account:
         ```
         export GOOGLE_APPLICATION_CREDENTIALS=PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_FILE
         gcloud auth activate-service-account --key-file=$GOOGLE_APPLICATION_CREDENTIALS
