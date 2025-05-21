@@ -1,6 +1,5 @@
 # https://docs.docker.com/engine/reference/builder/#dockerignore-file
 **
-
 # Scripts that run within Docker
 !build-bin/maybe_install_npm
 !build-bin/maven/maven_build
