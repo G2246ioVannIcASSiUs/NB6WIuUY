@@ -22,7 +22,6 @@
         export GOOGLE_APPLICATION_CREDENTIALS=PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_FILE
         gcloud auth activate-service-account --key-file=$GOOGLE_APPLICATION_CREDENTIALS
         export SKIP_CLONE_REPORTING=true
-        ```
     1. Run the button:
         ```
         (cd /tmp; rm -rf cloud-run-hello; ./cloudshell_open --repo_url=https://github.com/GoogleCloudPlatform/cloud-run-hello.git; rm -rf cloud-run-hello)
