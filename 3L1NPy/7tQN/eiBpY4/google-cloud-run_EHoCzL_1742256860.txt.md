@@ -43,7 +43,6 @@
     ```
 1. Set an env var pointing to the Service Account's JSON file:
 
-    export KEY_FILE=PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_FILE
     ```
 
 1. Run Cloud Run Button via Docker:
