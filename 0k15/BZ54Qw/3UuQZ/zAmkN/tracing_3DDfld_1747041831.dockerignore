@@ -28,7 +28,6 @@
 
 !docker/test-images/zipkin-kafka/install.sh
 !docker/test-images/zipkin-kafka/start-kafka-zookeeper
-
 !docker/test-images/zipkin-mysql/install.sh
 !docker/test-images/zipkin-mysql/start-mysql
 !zipkin-storage/mysql-v1/src/main/resources/mysql.sql
