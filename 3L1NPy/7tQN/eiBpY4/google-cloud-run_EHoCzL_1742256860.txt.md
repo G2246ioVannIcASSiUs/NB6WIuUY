@@ -31,7 +31,6 @@
         ```
         Other `cloudshell_open` flags: `--git_branch`, `--dir`, `--context`
 
-
 ## Test Cloud Run Button's Underlying Command Locally in a Container
 
 ⚠️ This will download very large Docker images to your system.
