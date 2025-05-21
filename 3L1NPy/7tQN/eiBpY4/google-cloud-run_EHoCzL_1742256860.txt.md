@@ -1,4 +1,3 @@
-# How to Contribute
 
 ## Test Cloud Run Button's Underlying Command Locally with Local Go
 
