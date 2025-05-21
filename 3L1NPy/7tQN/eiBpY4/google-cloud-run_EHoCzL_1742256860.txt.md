@@ -21,7 +21,6 @@
         ```
         export GOOGLE_APPLICATION_CREDENTIALS=PATH_TO_YOUR_SERVICE_ACCOUNT_KEY_FILE
         gcloud auth activate-service-account --key-file=$GOOGLE_APPLICATION_CREDENTIALS
-        export TRUSTED_ENVIRONMENT=true
         export SKIP_CLONE_REPORTING=true
         ```
     1. Run the button:
