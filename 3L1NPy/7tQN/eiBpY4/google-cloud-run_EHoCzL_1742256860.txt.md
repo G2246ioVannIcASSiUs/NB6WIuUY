@@ -53,7 +53,6 @@
       "gcloud auth activate-service-account --key-file=/root/user.json \
       --quiet && gcloud auth configure-docker --quiet && \
       /bin/cloudshell_open \
-      --repo_url=https://github.com/GoogleCloudPlatform/cloud-run-hello.git"
     ```
 
 ## Test Instrumentless
