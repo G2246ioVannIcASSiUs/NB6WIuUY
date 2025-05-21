@@ -2,7 +2,6 @@
 **
 # Scripts that run within Docker
 !build-bin/maybe_install_npm
-!build-bin/maven/maven_build
 !build-bin/maven/maven_build_or_unjar
 !build-bin/maven/maven_opts
 
