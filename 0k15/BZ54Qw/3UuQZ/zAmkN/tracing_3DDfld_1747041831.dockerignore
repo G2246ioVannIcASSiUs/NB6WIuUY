@@ -9,7 +9,6 @@
 
 !docker/test-images/zipkin-activemq/start-activemq
 
-!docker/test-images/zipkin-cassandra/install.sh
 !docker/test-images/zipkin-cassandra/start-cassandra
 !zipkin-storage/cassandra/src/main/resources/*.cql
 
