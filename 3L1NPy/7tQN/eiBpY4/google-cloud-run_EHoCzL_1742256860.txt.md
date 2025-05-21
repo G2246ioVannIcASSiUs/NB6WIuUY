@@ -1,7 +1,6 @@
 
 ## Test Cloud Run Button's Underlying Command Locally with Local Go
 
-1. Download Go 1.14 (see [`Dockerfile`](Dockerfile) for the exact version used)
 1. Run the tests:
     ```
     go test ./cmd/cloudshell_open
