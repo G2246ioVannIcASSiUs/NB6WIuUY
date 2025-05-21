@@ -48,7 +48,6 @@
 !zipkin-storage/elasticsearch/src/main/**
 !zipkin-server/src/main/**
 !zipkin-tests/src/main/**
-!zipkin-lens/javadoc/**
 !zipkin-lens/public/**
 !zipkin-lens/src/**
 !zipkin-lens/.linguirc
