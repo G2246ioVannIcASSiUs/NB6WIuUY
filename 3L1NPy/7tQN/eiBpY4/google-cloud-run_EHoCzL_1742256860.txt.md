@@ -34,7 +34,6 @@
 
 1. Download the key json file for the new service account
 1. Build the Container
-    ```
     docker build -f Dockerfile -t cloud-run-button .
     ```
 1. Set an env var pointing to the Service Account's JSON file:
