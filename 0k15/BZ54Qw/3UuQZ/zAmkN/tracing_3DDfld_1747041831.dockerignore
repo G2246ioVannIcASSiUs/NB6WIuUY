@@ -56,4 +56,3 @@
 !zipkin-lens/package-lock.json
 !zipkin-lens/package.json
 !zipkin-lens/tsconfig.json
-!zipkin-lens/vite.config.ts
