@@ -38,7 +38,6 @@
 
 ⚠️ This will download very large Docker images to your system.
 
-1. [Create a Service Account in a test account](https://console.cloud.google.com/iam-admin/serviceaccounts)
 1. Download the key json file for the new service account
 1. Build the Container
 
