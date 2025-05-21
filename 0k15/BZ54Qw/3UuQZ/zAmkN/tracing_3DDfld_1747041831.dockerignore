@@ -39,7 +39,6 @@
 
 # Allow on-demand "mvn package". <modules> referenced in pom.xml must be added even if not built
 !zipkin-collector/src/main/**
-!zipkin-collector/core/src/main/**
 !zipkin-collector/activemq/src/main/**
 !zipkin-collector/kafka/src/main/**
 !zipkin-collector/rabbitmq/src/main/**
