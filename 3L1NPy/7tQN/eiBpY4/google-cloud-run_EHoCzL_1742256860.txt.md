@@ -55,7 +55,6 @@
       -v $KEY_FILE:/root/user.json \
       -e GOOGLE_APPLICATION_CREDENTIALS=/root/user.json \
       -e TRUSTED_ENVIRONMENT=true \
-      -e SKIP_CLONE_REPORTING=true \
       --entrypoint=/bin/sh cloud-run-button -c \
       "gcloud auth activate-service-account --key-file=/root/user.json \
       --quiet && gcloud auth configure-docker --quiet && \
