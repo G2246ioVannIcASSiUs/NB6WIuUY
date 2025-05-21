@@ -60,7 +60,6 @@
 !zipkin-lens/public/**
 !zipkin-lens/src/**
 !zipkin-lens/.linguirc
-!zipkin-lens/.npmrc
 !zipkin-lens/index.html
 !zipkin-lens/package-lock.json
 !zipkin-lens/package.json
