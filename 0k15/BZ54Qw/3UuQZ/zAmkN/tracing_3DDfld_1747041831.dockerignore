@@ -65,4 +65,3 @@
 !zipkin-lens/pom.xml
 !zipkin-lens/tsconfig.json
 !zipkin-lens/vite.config.ts
-!**/pom.xml
