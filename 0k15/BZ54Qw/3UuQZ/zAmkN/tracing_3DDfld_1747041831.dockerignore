@@ -4,7 +4,6 @@
 !build-bin/maybe_install_npm
 !build-bin/maven/maven_build_or_unjar
 !build-bin/maven/maven_opts
-
 !/zipkin-server/target/zipkin-server-*exec.jar
 
 !docker/test-images/zipkin-activemq/start-activemq
