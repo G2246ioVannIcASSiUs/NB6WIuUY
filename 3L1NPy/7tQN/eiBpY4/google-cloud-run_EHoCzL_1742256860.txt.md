@@ -6,7 +6,6 @@
     go build -o /tmp/cloudshell_open ./cmd/cloudshell_open
     ```
 1. To test the command:
-    1. [Enable the cloudresourcemanager API](https://console.developers.google.com/apis/api/cloudresourcemanager.googleapis.com/overview)
     1. [Enable the billing API](https://console.developers.google.com/apis/api/cloudbilling.googleapis.com/overview)
     1. Create a Service Account with the following roles:
         * Cloud Run Admin (`roles/run.admin`), 
