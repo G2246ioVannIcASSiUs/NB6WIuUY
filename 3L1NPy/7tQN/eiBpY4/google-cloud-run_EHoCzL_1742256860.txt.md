@@ -3,7 +3,6 @@
 
     ```
     go test ./cmd/cloudshell_open
-    ```
 1. Build the command:
     go build -o /tmp/cloudshell_open ./cmd/cloudshell_open
     ```
