@@ -23,7 +23,6 @@
 !docker/test-images/zipkin-rabbitmq/config/
 !zipkin-lens/target/zipkin-lens-*.jar
 
-# Allow on-demand "mvn package". <modules> referenced in pom.xml must be added even if not built
 !zipkin-collector/activemq/src/main/**
 !zipkin-collector/kafka/src/main/**
 !zipkin-collector/rabbitmq/src/main/**
