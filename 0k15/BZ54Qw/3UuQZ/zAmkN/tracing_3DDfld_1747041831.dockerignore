@@ -8,7 +8,6 @@
 !/zipkin-server/target/zipkin-server-*exec.jar
 
 !docker/test-images/zipkin-activemq/start-activemq
-
 !docker/test-images/zipkin-cassandra/start-cassandra
 !zipkin-storage/cassandra/src/main/resources/*.cql
 
