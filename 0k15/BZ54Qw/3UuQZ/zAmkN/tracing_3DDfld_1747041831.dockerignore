@@ -28,7 +28,6 @@
 !docker/test-images/zipkin-ui/start-nginx
 !zipkin-lens/target/zipkin-lens-*.jar
 
-!docker/test-images/zipkin-uiproxy/nginx.conf
 # Allow on-demand "mvn package". <modules> referenced in pom.xml must be added even if not built
 !zipkin-collector/src/main/**
 !zipkin-collector/activemq/src/main/**
