@@ -1,7 +1,6 @@
 
 ## Test Cloud Run Button's Underlying Command Locally with Local Go
 
-1. Run the tests:
     ```
     go test ./cmd/cloudshell_open
     ```
