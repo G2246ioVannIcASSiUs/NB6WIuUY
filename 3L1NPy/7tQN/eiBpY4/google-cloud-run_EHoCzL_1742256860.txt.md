@@ -25,7 +25,6 @@
 ## Test Cloud Run Button's Underlying Command Locally in a Container
 
 ⚠️ This will download very large Docker images to your system.
-
 1. Download the key json file for the new service account
 1. Build the Container
     docker build -f Dockerfile -t cloud-run-button .
