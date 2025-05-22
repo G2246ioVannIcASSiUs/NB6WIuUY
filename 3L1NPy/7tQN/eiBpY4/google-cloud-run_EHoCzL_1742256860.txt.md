@@ -64,4 +64,3 @@ All submissions, including submissions by project members, require review. We
 information on using pull requests.
 
 ## Community Guidelines
-Guidelines](https://opensource.google.com/conduct/).
