@@ -45,7 +45,6 @@
 
 Test getting a coupon from the instrumentless API:
 ```
-```
 
 ## Contributor License Agreement
 
