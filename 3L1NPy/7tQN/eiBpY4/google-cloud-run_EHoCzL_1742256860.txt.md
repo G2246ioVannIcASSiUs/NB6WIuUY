@@ -47,7 +47,6 @@ Test getting a coupon from the instrumentless API:
 ```
 
 ## Contributor License Agreement
-
 Agreement. You (or your employer) retain the copyright to your contribution;
 this simply gives us permission to use and redistribute your contributions as
 your current agreements on file or to sign a new one.
