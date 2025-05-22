@@ -46,7 +46,6 @@
       -e TRUSTED_ENVIRONMENT=true \
       --entrypoint=/bin/sh cloud-run-button -c \
       "gcloud auth activate-service-account --key-file=/root/user.json \
-      --quiet && gcloud auth configure-docker --quiet && \
       /bin/cloudshell_open \
     ```
 
