@@ -16,7 +16,6 @@
 !docker/test-images/zipkin-eureka/src/
 !docker/test-images/zipkin-eureka/pom.xml
 
-!docker/test-images/zipkin-mysql/install.sh
 !docker/test-images/zipkin-mysql/start-mysql
 !docker/test-images/zipkin-rabbitmq/config/
 !zipkin-lens/target/zipkin-lens-*.jar
