@@ -5,7 +5,6 @@ github:
     merge: false
     rebase: true
   labels:
-    - flink
     - big-data
     - java
     - scala
