@@ -6,7 +6,6 @@ perennials = []
 perennial-regex = ""
 
 [create]
-new-branch-type = "feature"
 push-new-branches = false
 
 [hosting]
