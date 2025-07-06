@@ -1,0 +1,48 @@
+language: python
+python:
+  - "3.7"
+  - "3.8"
+
+arch:
+  - amd64
+  - arm64
+
+# enable docker in Travis
+services:
+  - docker
+  
+branches:
+  only:
+    - master
+    - /^\d+\.\d+\.\d+(-\S*)?$/
+    - /^\d+\.\d+\.\d+(rc\d+)$/
+
+# command to install dependencies
+install:
+  - pip install tox tox-travis -U --force-reinstall
+
+# command to run tests
+script:
+  - tox -vv
+  - docker --version
+  - make docs
+  - make build
+  - docker images
+  - docker run `make version` --help
+
+# push images to DockerHub and PyPI on tags
+deploy:
+  - provider: script
+    script:  python -m pip install tox && tox -vve pypi_publish
+    skip_cleanup: true
+    on:
+      tags: true
+      python: "3.7"
+      condition: -n "$TWINE_PASSWORD" && $TRAVIS_CPU_ARCH = "amd64"
+  - provider: script
+    script: bash build/docker_deploy.sh
+    skip_cleanup: true
+    on:
+      tags: true
+      python: "3.7"
+      condition: -n "$DOCKER_PASSWORD"
