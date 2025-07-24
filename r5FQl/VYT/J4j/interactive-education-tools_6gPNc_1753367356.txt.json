@@ -1,0 +1,16 @@
+{
+  "name": "vps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd frontend && yarn run dev\" \"cd backend && yarn run dev\"",
+    "setup": "yarn install && concurrently \"cd frontend && yarn install\" \"cd backend && yarn install\"",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "all-contributors-cli": "^6.20.0",
+    "concurrently": "^9.1.2"
+  }
+}
