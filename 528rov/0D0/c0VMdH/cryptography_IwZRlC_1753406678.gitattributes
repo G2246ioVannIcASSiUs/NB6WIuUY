@@ -1,0 +1,7 @@
+* linguist-language=Go
+
+*.c linguist-vendored
+*.h linguist-vendored
+
+
+*.md linguist-documentation=true
